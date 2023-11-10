@@ -1,4 +1,4 @@
-let player = 0 ;
+let player = 0;
 let computer = 0;
 let tie= ("Tie");
 
@@ -69,13 +69,13 @@ function gameLogic(input) {
         }
 
     }
-    if (player == 6){
+    if (player == 5){
         let feedBack = "You win!";
         feedBackText.innerText = feedBack;
         player = 0;
         computer = 0;
     }
-    if (computer == 6){
+    if (computer == 5){
         let feedBack = "Computer wins!";
         feedBackText.innerText = feedBack;
         player = 0;
