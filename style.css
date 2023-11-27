@@ -1,0 +1,71 @@
+
+    
+
+body{
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: black;
+    color:green;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game-button, #restartButton{
+    height:50px;
+    width: 100px;
+    /* gap: 50px; */
+    font-size: larger;
+    font-weight: bold;
+    cursor:pointer;
+    background-color: rgb(3, 255, 3);  
+}
+.game-button{
+    margin: 25px;
+    /* display: flex;
+    
+    justify-content: space-between; */
+}
+
+.outcome{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin:50px;
+
+}
+#Playerscore, #Computerscore{
+    border: solid green;
+    border-radius: 15%;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large; 
+    font-weight:bolder;
+}
+#feedback, #feedbackpc{
+    font-size: larger;
+}
+.uitslag{
+    font-size: larger;
+
+}
+.Restart{
+    margin-top: 50px;
+}
+/* .uitslag{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
