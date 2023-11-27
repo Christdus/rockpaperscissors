@@ -3,34 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>rps</title>
 </head>
 <body>
-    <div class="Top">
-        <h1>Rock paper scissors</h1>
-        <h2>First to 5 wins</h2>
-        <h4>Pick a button</h4>
-    </div>
-    <div class="buttons">
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
-    </div>
-    <div class="Players">
-        <div>
-            <h3 id="playerchoice">Player: choice</h3>
-            <div id="playerscore"> 0 </div>
+    <div class ="container">
+        <div class="top">
+            <div><h1>Rock Paper Scissors!</h1></div>
+            <div><h3>First to 5 wins!</h3></div>
         </div>
-        <div>
-            <h3 id="computerchoice">Computer: choice</h3>
-            <div id="computerscore">0</div>
-        </div>    
+        <div class = "buttons">
+            <button id="rock" class ="game-button">Rock</button>
+            <button id="paper" class ="game-button">Paper</button>
+            <button id="scis" class ="game-button">Scissors</button>
         </div>
+        <div class = "outcome">
+            <h3> Player:</h3>
+            <div id="Playerscore"></div>
+            <div class="uitkomst">
+                <div id="feedback"></div>
+            </div> 
+            <h3> Computer:</h3>
+            <div id = "Computerscore"></div> 
+            <div class = "uitkomstpc">
+                <div id = "feedbackpc">
+            </div>
+        </div> 
+        <div class ="uitslag">
+            <h3> Result: </h3>
+            <div id = "result"></div>
+        </div>
+        <div class="Restart">
+            <button id="restartButton">Restart</button>
+        </div>
+        
     </div>
-    <div class="uitkomst">
-        <div id="feedback"></div>
-    </div>
+    <script src="js.js"></script>
+    
 </body>
-<script src ="javascript.js"></script>
 </html>
